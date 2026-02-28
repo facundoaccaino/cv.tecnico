@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0A1F0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#back-color {
+    background-color:#10361b;
+    width: 70%;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+main {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* ------------ESTILOS HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+/* CONTENEDOR NOMBRE */
+.cont-name { 
+  width: 70%;
+}
+
+/* ESTILOS HR*/
+hr {
+    position: relative;
+    border: 1px solid #E8F5E9;
+}
+
+/* ------------ESTILOS PERFIL */
+.section-profile {
+   width: 70%;
+}
+
+/* ESTILOS IMAGEN */ 
+#photo-style {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/* COLOR DE TEXTO */
+.font-color {
+  color: #E8F5E9;
+}
+
+
+/* ------------SECCION TECNOLOGIAS */
+.section-tech {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-tech {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.item-tech {
+    background-color: #E8F5E9;
+    color: #0A1F0F;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor:default;
+}
+
+#html {
+    background-color: #4e2620;
+    color: #FF8A65;
+}
+
+#css {
+    background-color: #1e3c72;
+    color: #64B5F6;
+}
+
+#javascript {
+    background-color: #f0db4f;
+    color: #323330;
+}
+
+/* ------------SECCION PROYECTOS */
+.section-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #1B4D2E;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5px;
+    transition: transform 0.6s ease;
+    cursor: default;
+}
+
+.project-item:hover {
+    background-color: #2E7D32;
+    transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+.project-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
